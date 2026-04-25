@@ -16,7 +16,7 @@
         compatible = "zmk,keymap";
 
         default {
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp 0xC00E9 0xC00EA>;
         };
     };
 };
