@@ -1,3 +1,6 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
 / {
     sensors: sensors {
         compatible = "zmk,keymap-sensors";
@@ -15,8 +18,8 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default {
-            sensor-bindings = <&inc_dec_kp 0xC00E9 0xC00EA>;
+        default_layer {
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
 };
