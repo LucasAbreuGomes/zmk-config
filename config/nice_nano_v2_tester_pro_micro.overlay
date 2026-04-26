@@ -1,0 +1,8 @@
+/ {
+    // Desabilita o kscan padrão da placa para evitar conflito com o tester_pro_micro
+    // O nome do nó pode variar, verifique o .dts da sua placa se este não funcionar
+    kscan0: kscan0 {
+        status = disabled;
+};
+};
+
