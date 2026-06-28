@@ -1,0 +1,6 @@
+if SHIELD_PRIME_KEY
+
+config ZMK_KEYBOARD_NAME
+    default "prime_key"
+
+endif # SHIELD_PRIME_KEY
